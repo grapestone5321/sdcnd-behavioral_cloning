@@ -86,7 +86,7 @@ In order to gauge how well the model was working, I split my image and steering 
 
 To combat the overfitting, I modified the model so that ..
 
-Then I .
+Then I 
 
 The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track... to improve the driving behavior in these cases, I ....
 
@@ -94,7 +94,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes ..
+The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes .
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
