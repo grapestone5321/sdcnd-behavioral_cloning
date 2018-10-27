@@ -84,7 +84,7 @@ My first step was to use a convolution neural network model similar to the ... I
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
-To combat the overfitting, I modified the model so that ..
+To combat the overfitting, I modified the model so that .
 
 Then I 
 
