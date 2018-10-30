@@ -126,6 +126,9 @@ Then the vehicle captured images from three cameras mounted on the car: a center
 
 Then I repeated this process on track two in order to get more data points.
 
+I also recorded counter-clockwise laps around the track. Track one has a left turn bias. So, the data is biased towards left turns. To combat the bias, the vehicle is turned around and recorded counter-clockwise laps around the track. Driving counter-clockwise is also like giving the model a new track to learn from, so the model generalizes better.
+
+
 To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
 
 
