@@ -28,6 +28,10 @@ The goals / steps of this project are the following:
 
 [image8]: ./images/NVIDIA_model.png 
 [image9]: ./images/model_final.png
+[image10]: ./images/center_0.jpg
+[image11]: ./images/left_1.jpg
+[image12]: ./images/center_1.jpg
+[image13]: ./images/right_1.jpg
 
 
 
@@ -58,7 +62,6 @@ The model.py file contains the code for training and saving the convolution neur
 ### Model Architecture and Training Strategy
 
 #### 1. An appropriate model architecture has been employed
-
 The model is based on an architecture published by the autonomous vehicle team at NVIDIA. The network consists of a normalization layer followed by five convolutional layers, followed by four fully connected layers.
 
 
@@ -111,13 +114,13 @@ Here is a visualization of the architecture.
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+![alt text][image10]
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
 
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
+![alt text][image11]
+![alt text][image12]
+![alt text][image12]
 
 Then I repeated this process on track two in order to get more data points.
 
