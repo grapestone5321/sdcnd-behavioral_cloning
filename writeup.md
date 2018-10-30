@@ -54,7 +54,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-he model is based on an architecture published by the autonomous vehicle team at NVIDIA. The network consists of a normalization layer followed by five convolutional layers, followed by four fully connected layers.
+The model is based on an architecture published by the autonomous vehicle team at NVIDIA. The network consists of a normalization layer followed by five convolutional layers, followed by four fully connected layers.
 
 The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. 
 
