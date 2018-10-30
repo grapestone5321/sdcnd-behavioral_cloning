@@ -127,7 +127,7 @@ To augment the data sat, I also flipped images: A effective technique for helpin
 
 
 
-After the collection process, I had 22,872 number of data points. I then preprocessed this data by .
+After the collection process, I had 22,872 number of data points. I then preprocessed this data by the normalization in the model using a Keras lambda layer.
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
