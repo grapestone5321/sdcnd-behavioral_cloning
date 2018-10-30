@@ -128,15 +128,13 @@ Then I repeated this process on track two in order to get more data points.
 
 I also recorded counter-clockwise laps around the track. Track one has a left turn bias. So, the data is biased towards left turns. To combat the bias, the vehicle is turned around and recorded counter-clockwise laps around the track. Driving counter-clockwise is also like giving the model a new track to learn from, so the model generalizes better.
 
+To augment the data sat, I also flipped images: A effective technique for helping with the left turn bias involves flipping images.
 
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
 
-
-Etc 
 
 After the collection process, I had 22,872 number of data points. I then preprocessed this data by .
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. I used an adam optimizer so that manually training the learning rate wasn't necessary.
