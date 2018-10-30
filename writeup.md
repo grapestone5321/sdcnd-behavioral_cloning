@@ -27,6 +27,8 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder_small.png "Flipped Image"
 
 [image8]: ./images/NVIDIA_model.png 
+[image9]: ./images/model_final.png
+
 
 
 ## Rubric Points
@@ -77,7 +79,6 @@ The model used an adam optimizer, so the learning rate was not tuned manually.
 #### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road .
-
 For details about how I created the training data, see the next section. 
 
 ### Model Architecture and Training Strategy
@@ -104,7 +105,7 @@ The final model architecture consisted of a convolution neural network with the 
 
 Here is a visualization of the architecture.
 
-![alt text][image1]
+![alt text][image9]
 
 #### 3. Creation of the Training Set & Training Process
 
