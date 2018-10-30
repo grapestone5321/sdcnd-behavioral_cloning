@@ -54,9 +54,9 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
+he model is based on an architecture published by the autonomous vehicle team at NVIDIA. The network consists of a normalization layer followed by five convolutional layers, followed by four fully connected layers.
 
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer. 
 
 #### 2. Attempts to reduce overfitting in the model
 
