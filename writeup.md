@@ -116,7 +116,7 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 ![alt text][image10]
 
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
+Then the vehicle captured images from three cameras mounted on the car: a center, right and left camera. That’s because of the issue of recovering from being off-center:
 
 ![alt text][image11]
 
